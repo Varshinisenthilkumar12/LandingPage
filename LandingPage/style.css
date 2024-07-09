@@ -17,7 +17,7 @@ body {
 
 .top {
     height: 60vh;
-    background-image: url(https://wallpaper.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg);
+    background-image: url(https://c1.wallpaperflare.com/preview/80/193/318/job-job-offer-workplace-job-search.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -38,24 +38,38 @@ body {
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
 }
 
 .rtext {
     display: flex;
-    justify-content: space-around;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .rtext p {
-    font-size: 14px;
+    margin: 0 10px;
+    font-size: 1em;
 }
 
 .icons {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .icons i {
